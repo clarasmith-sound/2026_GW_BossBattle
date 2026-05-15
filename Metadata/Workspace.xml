@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{d9874776-af1d-4295-980a-da8891fcc22e}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../Unity/RiseOnBossJam/Assets/StreamingAssets/FMOD</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{b5bdc14f-bbb1-4387-84da-d9f67efcc691}</destination>
 		</relationship>
@@ -30,6 +33,7 @@
 		</relationship>
 		<relationship name="platforms">
 			<destination>{81607239-6c75-494b-96d3-88c3c6e8bd5a}</destination>
+			<destination>{828262ea-29cd-490a-a867-d0e50d88de72}</destination>
 		</relationship>
 	</object>
 </objects>

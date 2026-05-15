@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="Platform" id="{81607239-6c75-494b-96d3-88c3c6e8bd5a}">
+	<object class="Platform" id="{828262ea-29cd-490a-a867-d0e50d88de72}">
 		<property name="hardwareType">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="name">
-			<value>Desktop</value>
+			<value>Mobile</value>
 		</property>
 		<property name="subDirectory">
-			<value>Desktop</value>
+			<value>Mobile</value>
 		</property>
 		<property name="speakerFormat">
 			<value>1</value>
