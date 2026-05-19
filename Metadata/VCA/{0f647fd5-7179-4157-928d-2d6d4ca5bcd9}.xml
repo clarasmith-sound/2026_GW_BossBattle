@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerVCA" id="{0f647fd5-7179-4157-928d-2d6d4ca5bcd9}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>SFX</value>
 		</property>

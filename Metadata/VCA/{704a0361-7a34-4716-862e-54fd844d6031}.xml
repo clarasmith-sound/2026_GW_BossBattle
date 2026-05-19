@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerVCA" id="{704a0361-7a34-4716-862e-54fd844d6031}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
-			<value>Enemies</value>
+			<value>Adventurers</value>
 		</property>
 		<relationship name="masters">
 			<destination>{0f647fd5-7179-4157-928d-2d6d4ca5bcd9}</destination>
