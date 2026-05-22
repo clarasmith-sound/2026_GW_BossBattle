@@ -5,7 +5,7 @@
 			<value>Button_Click</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{aee5ea3d-9026-4d6f-be61-6312aeddb4d0}</destination>
@@ -82,7 +82,14 @@
 			<destination>{ca46daf5-9025-450f-a6d8-cf4e07bccf20}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{10791174-9942-448c-8b0f-83d8c77adb1b}" />
+	<object class="MultiSound" id="{10791174-9942-448c-8b0f-83d8c77adb1b}">
+		<property name="playbackMode">
+			<value>1</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{82601011-9428-4508-b773-8f5870c3cfde}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{ca3e999b-e8fc-4b7e-9fd9-e82eb49dfdfa}">
 		<relationship name="effects">
 			<destination>{aedd8dff-c32d-40d0-9b7e-aa0244ad2e34}</destination>
@@ -91,10 +98,59 @@
 	<object class="MixerBusPanner" id="{bc7bfb44-ba27-4d45-8d92-6ead2c054aed}" />
 	<object class="MixerBusEffectChain" id="{d8888f85-3e8b-4191-8a63-ad462d9c7f49}">
 		<relationship name="effects">
+			<destination>{91ad5b53-336c-48f4-8065-e3ba52782d5f}</destination>
 			<destination>{59081766-3d2f-47fb-9d96-a095cff75247}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d27a3518-e3af-4d80-8f72-31345c0c9332}" />
+	<object class="MultiSound" id="{82601011-9428-4508-b773-8f5870c3cfde}">
+		<relationship name="sounds">
+			<destination>{17f12d48-6087-4959-aef6-71ab65ebf55a}</destination>
+			<destination>{dc65238c-cc1e-41b6-aa54-6543ed2bc903}</destination>
+			<destination>{f4dc17ba-5d6c-459e-a408-68954bd314c2}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{aedd8dff-c32d-40d0-9b7e-aa0244ad2e34}" />
+	<object class="ThreeEQEffect" id="{91ad5b53-336c-48f4-8065-e3ba52782d5f}">
+		<property name="midGain">
+			<value>1</value>
+		</property>
+		<property name="highGain">
+			<value>-5</value>
+		</property>
+		<property name="lowCrossover">
+			<value>300</value>
+		</property>
+		<property name="highCrossover">
+			<value>3000</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{59081766-3d2f-47fb-9d96-a095cff75247}" />
+	<object class="SingleSound" id="{17f12d48-6087-4959-aef6-71ab65ebf55a}">
+		<property name="startOffset">
+			<value>6.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{eb420d50-5d43-4144-987b-5dd0cd264294}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{dc65238c-cc1e-41b6-aa54-6543ed2bc903}">
+		<property name="startOffset">
+			<value>6.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{01801a56-89a0-4a75-933b-6d4e9b742df1}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{f4dc17ba-5d6c-459e-a408-68954bd314c2}">
+		<property name="startOffset">
+			<value>9.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{f57cdfb1-eafc-4034-b809-b44b57a9fdea}</destination>
+		</relationship>
+	</object>
 </objects>
