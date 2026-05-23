@@ -5,7 +5,7 @@
 			<value>Button_StartGame</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{aee5ea3d-9026-4d6f-be61-6312aeddb4d0}</destination>
@@ -82,7 +82,11 @@
 			<destination>{7354a100-996c-4bc5-87c4-641335aa8652}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{bd5b8f83-8d1a-4db4-b58a-3cb7a3fc892b}" />
+	<object class="MultiSound" id="{bd5b8f83-8d1a-4db4-b58a-3cb7a3fc892b}">
+		<relationship name="sounds">
+			<destination>{cc26ea55-bbb1-4661-b12f-e567f92d4743}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{816df16d-3faf-482e-b40a-9c132e514017}">
 		<relationship name="effects">
 			<destination>{a837ee50-3a85-41e3-9572-f53139e32c30}</destination>
@@ -95,6 +99,22 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{851a7ba7-f0e1-4587-801d-f043d5a5e2e5}" />
+	<object class="MultiSound" id="{cc26ea55-bbb1-4661-b12f-e567f92d4743}">
+		<relationship name="sounds">
+			<destination>{f4c637c7-5e37-479b-bdc0-c4555775be44}</destination>
+			<destination>{fe9fbca2-ea06-4291-885b-276b54406508}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{a837ee50-3a85-41e3-9572-f53139e32c30}" />
 	<object class="MixerBusFader" id="{1000ae28-d589-4f4d-9c6e-a8df31b6c777}" />
+	<object class="SingleSound" id="{f4c637c7-5e37-479b-bdc0-c4555775be44}">
+		<relationship name="audioFile">
+			<destination>{36953622-5f0f-4b42-9311-8864b0db694f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{fe9fbca2-ea06-4291-885b-276b54406508}">
+		<relationship name="audioFile">
+			<destination>{b347fcf9-5445-4307-a35a-c0a423c45488}</destination>
+		</relationship>
+	</object>
 </objects>
