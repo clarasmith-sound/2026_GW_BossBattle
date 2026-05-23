@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{b958c788-896f-4ac1-882d-bc28784600c7}">
+		<property name="assetPath">
+			<value>Adventurers/sfx_Wizard_death_03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.2500208333333331</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{89ef545b-ac56-4e84-b0d6-70f22f1db1c2}</destination>
+		</relationship>
+	</object>
+</objects>
