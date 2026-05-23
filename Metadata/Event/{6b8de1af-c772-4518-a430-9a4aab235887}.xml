@@ -5,7 +5,7 @@
 			<value>TileSelected</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{00dd7fba-12c4-47ff-8461-ab65ebe9fd1f}</destination>
@@ -82,7 +82,11 @@
 			<destination>{f1040ea2-ca5d-45f3-b16d-0f3b29c91c50}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{394c45b9-aaed-4c0c-9924-1e7d783b6250}" />
+	<object class="MultiSound" id="{394c45b9-aaed-4c0c-9924-1e7d783b6250}">
+		<relationship name="sounds">
+			<destination>{7a4dfdc4-2dd3-46f9-b988-a4575901b2ac}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{e169d831-187c-437b-b114-2cbce5d0efb4}">
 		<relationship name="effects">
 			<destination>{91ba9e24-37d5-4830-a443-96eb2fd0db34}</destination>
@@ -95,6 +99,28 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a2ba6eee-551c-431f-80d5-92b0471dc997}" />
+	<object class="MultiSound" id="{7a4dfdc4-2dd3-46f9-b988-a4575901b2ac}">
+		<relationship name="sounds">
+			<destination>{8fc52ab3-88ae-4905-912a-9ac656dc4072}</destination>
+			<destination>{d744da6b-e593-4e1f-8c18-558c032a01cd}</destination>
+			<destination>{5c402d23-b5ef-4c82-9b15-dccb38e152d8}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{91ba9e24-37d5-4830-a443-96eb2fd0db34}" />
 	<object class="MixerBusFader" id="{9717297f-c3a4-44f4-aeae-aa5bdebe3b23}" />
+	<object class="SingleSound" id="{8fc52ab3-88ae-4905-912a-9ac656dc4072}">
+		<relationship name="audioFile">
+			<destination>{b334a75c-e623-4bf9-9005-d45211f0e2d7}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{d744da6b-e593-4e1f-8c18-558c032a01cd}">
+		<relationship name="audioFile">
+			<destination>{d3fa4611-9cbd-489e-9682-ee66e681126a}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{5c402d23-b5ef-4c82-9b15-dccb38e152d8}">
+		<relationship name="audioFile">
+			<destination>{f26b09f4-e285-4228-a310-584961fbb51d}</destination>
+		</relationship>
+	</object>
 </objects>
