@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{2dcca7e9-e6a0-42a0-a159-30d8ae54b6d8}">
+		<property name="assetPath">
+			<value>Dragon/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{89ef545b-ac56-4e84-b0d6-70f22f1db1c2}</destination>
+		</relationship>
+	</object>
+</objects>
