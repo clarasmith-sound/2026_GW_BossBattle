@@ -5,7 +5,7 @@
 			<value>FoundTreasure</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3fc70efb-f471-49f7-afc3-e545728fd96f}</destination>
@@ -82,7 +82,11 @@
 			<destination>{7c7e30cb-8821-41c3-923c-e47ed47daa30}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{732f3275-7c1b-4037-8756-53ca0c7407d7}" />
+	<object class="MultiSound" id="{732f3275-7c1b-4037-8756-53ca0c7407d7}">
+		<relationship name="sounds">
+			<destination>{3ec71308-9304-4392-a17f-d7d9365e5c94}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{00390749-aeeb-49a4-953a-7a5ea002e8ae}">
 		<relationship name="effects">
 			<destination>{44f4c6a5-b32a-4b8c-aa04-c09717c38616}</destination>
@@ -95,6 +99,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2b5d11aa-14de-4aab-89ca-f7ead7055ce9}" />
+	<object class="SingleSound" id="{3ec71308-9304-4392-a17f-d7d9365e5c94}">
+		<relationship name="audioFile">
+			<destination>{752eb435-82cc-4640-8f95-13d833e0c2c6}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{44f4c6a5-b32a-4b8c-aa04-c09717c38616}" />
 	<object class="MixerBusFader" id="{25312bfb-cbd2-414c-8503-4e173909499d}" />
 </objects>
