@@ -8,7 +8,7 @@
 			<value>Rogue_TakeDamage</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3fc70efb-f471-49f7-afc3-e545728fd96f}</destination>
@@ -85,7 +85,11 @@
 			<destination>{63d98653-5a95-41ee-9184-a6b5829f7802}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{b19a27db-db2e-46a4-a3fb-90442b30b838}" />
+	<object class="MultiSound" id="{b19a27db-db2e-46a4-a3fb-90442b30b838}">
+		<relationship name="sounds">
+			<destination>{1196017b-dae1-4fa9-8a9e-dc3eb78b84ab}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{72d2e6cf-fdfb-49df-8306-4f408e5b0c7a}">
 		<relationship name="effects">
 			<destination>{f16bd1c4-0aaf-4718-8276-1e91d30936c8}</destination>
@@ -98,6 +102,28 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{48ea67d3-c0d7-42fe-b807-7a4aa8a899c5}" />
+	<object class="MultiSound" id="{1196017b-dae1-4fa9-8a9e-dc3eb78b84ab}">
+		<relationship name="sounds">
+			<destination>{37a16729-67d7-4086-bb33-ed89b98e2be3}</destination>
+			<destination>{3c704a0b-f4ba-440b-8ade-38da4edc3fad}</destination>
+			<destination>{b73b95db-00b1-43ab-bb43-3afa2bf037d0}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{f16bd1c4-0aaf-4718-8276-1e91d30936c8}" />
 	<object class="MixerBusFader" id="{800c56ee-eb44-474a-b9b6-e31536e5628f}" />
+	<object class="SingleSound" id="{37a16729-67d7-4086-bb33-ed89b98e2be3}">
+		<relationship name="audioFile">
+			<destination>{51208a93-ef1a-40f4-9986-8b5418fa492c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3c704a0b-f4ba-440b-8ade-38da4edc3fad}">
+		<relationship name="audioFile">
+			<destination>{2caa4a69-a729-4a4c-9664-d30bf2ffd869}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{b73b95db-00b1-43ab-bb43-3afa2bf037d0}">
+		<relationship name="audioFile">
+			<destination>{efe327cd-843c-4513-94a5-ee7f3d12d01d}</destination>
+		</relationship>
+	</object>
 </objects>

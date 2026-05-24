@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{21920d44-d9a3-49ca-a6ab-4cfa5ff045f0}">
+	<object class="AudioFile" id="{09fb73bb-d523-4093-8611-a60399c913e2}">
 		<property name="assetPath">
-			<value>Adventurers/sfx_warrior_death_01.wav</value>
+			<value>Adventurers/sfx_Warrior_damaged_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.7805</value>
+			<value>1.1391666666666667</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{89ef545b-ac56-4e84-b0d6-70f22f1db1c2}</destination>
