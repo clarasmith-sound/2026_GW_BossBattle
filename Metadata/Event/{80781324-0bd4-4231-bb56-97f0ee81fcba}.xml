@@ -5,7 +5,7 @@
 			<value>Slider_ValueUpdate</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{aee5ea3d-9026-4d6f-be61-6312aeddb4d0}</destination>
@@ -67,7 +67,7 @@
 			<value>0</value>
 		</property>
 		<property name="triggerCooldown">
-			<value>20</value>
+			<value>280</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{2454e9d5-3e94-4fa0-9a87-6118ad472711}" />
@@ -92,7 +92,11 @@
 			<destination>{6b6d7318-091d-4ffe-9fe1-ed6e6718048c}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{70b987db-24f8-4293-9546-840cc0b0da98}" />
+	<object class="MultiSound" id="{70b987db-24f8-4293-9546-840cc0b0da98}">
+		<relationship name="sounds">
+			<destination>{9d5ae5ec-ec7c-47e5-a877-e539456d115e}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{5bfdc337-01de-40b9-bba4-086dd2ba5b7f}">
 		<relationship name="effects">
 			<destination>{7ea54739-0e20-49d8-854c-24d4744a009a}</destination>
@@ -101,10 +105,24 @@
 	<object class="MixerBusPanner" id="{97e6fc5e-b02a-4f62-9649-1eddacc2a137}" />
 	<object class="MixerBusEffectChain" id="{87fdc5fe-9118-4be0-b39d-b9bbf717af38}">
 		<relationship name="effects">
+			<destination>{e05a65bc-05f8-4078-a41b-d533c9aaa2f7}</destination>
 			<destination>{483680c5-a1a4-44e3-aa5a-014d9e026245}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2d5e4dc-daac-42e3-a064-659fd5319b35}" />
+	<object class="SingleSound" id="{9d5ae5ec-ec7c-47e5-a877-e539456d115e}">
+		<property name="startOffset">
+			<value>5.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{eb420d50-5d43-4144-987b-5dd0cd264294}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{7ea54739-0e20-49d8-854c-24d4744a009a}" />
+	<object class="DistortionEffect" id="{e05a65bc-05f8-4078-a41b-d533c9aaa2f7}">
+		<property name="level">
+			<value>0.779999971</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{483680c5-a1a4-44e3-aa5a-014d9e026245}" />
 </objects>

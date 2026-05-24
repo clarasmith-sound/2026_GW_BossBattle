@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{87dd00e2-bc9c-4ad8-862c-a08efd200bbd}">
 		<property name="assetPath">
-			<value>sfx_tile_discarded_03.wav</value>
+			<value>Player/sfx_tile_discarded_03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

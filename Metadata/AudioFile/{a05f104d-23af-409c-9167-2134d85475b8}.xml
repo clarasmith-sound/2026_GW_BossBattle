@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{18ca0749-1b0b-42ff-a988-9c7b7264e64e}">
+	<object class="AudioFile" id="{a05f104d-23af-409c-9167-2134d85475b8}">
 		<property name="assetPath">
-			<value>Player/sfx_tile_discarded_01.wav</value>
+			<value>Music/1-Experiment 1 (seamless).wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1</value>
+			<value>182</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{89ef545b-ac56-4e84-b0d6-70f22f1db1c2}</destination>

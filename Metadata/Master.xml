@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerMaster" id="{7fbff49f-9281-4b68-bc08-27d4cd71159c}">
 		<property name="volume">
-			<value>-6</value>
+			<value>6</value>
 		</property>
 		<property name="name">
 			<value>Master Bus</value>

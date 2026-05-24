@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{18ca0749-1b0b-42ff-a988-9c7b7264e64e}">
+	<object class="AudioFile" id="{809377f5-6700-46a3-9a65-3a5063745ae5}">
 		<property name="assetPath">
-			<value>Player/sfx_tile_discarded_01.wav</value>
+			<value>Ambience/AMBRoom-LR_Malaysia-Ambience, Room Tone, Interior, Co Working Space,Hallway, Doors Open, Closing, Beep, Bureau Ambience, Air Condition, Penang_FTUS_WOSB.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>192</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1</value>
+			<value>52.464276041666665</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{89ef545b-ac56-4e84-b0d6-70f22f1db1c2}</destination>
